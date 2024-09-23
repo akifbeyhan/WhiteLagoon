@@ -17,5 +17,6 @@ namespace WhiteLagoon.Application.Common.Interfaces
         //void Update(T entity);
         void Remove(T entity);
         //void Save();
+        bool Any(Expression<Func<T, bool>> filter);
     }
 }

@@ -36,4 +36,9 @@
     <UpToDateCheckInput Remove="Views\VillaNumber\Update.cshtml" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\images\RoomImages\" />
+    <Folder Include="wwwroot\images\RoomImages\Villa\" />
+  </ItemGroup>
+
 </Project>
